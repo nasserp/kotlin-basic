@@ -7,7 +7,7 @@ fun main() {
     println(name)
     greeting = null
     when (greeting) {
-        null -> println("Hi")
+        null -> println("Hi Kotli")
         else -> println(greeting)
     }
     val greetingToPrint=when(greeting){
